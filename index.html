@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" , content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Registration Form</h1>
+            <form action="post">
+
+                <label for="name">
+                    <p>Full Name:
+                        <input type="text" name="name">
+                    </p>
+                </label>
+
+                <label for="age">
+                    <p>Age:
+                        <input type="number" name="age">
+                    </p>
+                </label>
+
+                <label for="email">
+                    <p>Email:
+                        <input type="email" name="email">
+                    </p>
+                </label>
+                <label for="Gender:">
+                    <p> Gender:
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </p>
+                </label>
+
+                 <label for="Skiils">
+                    <p> Skills
+                         <input type="checkbox" id="html" name="HTML" value="yes">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="CSS" value="yes">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="javascript" name="JavaScript" value="yes">
+                <label for="javascript">JavaScript</label>
+                    </p>
+                </label>
+                <p>
+                    Course selection
+                     <select name="course">
+                    <option value="web development">Web development</option>
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                </select>
+                </p>
+                <label>
+                    <p>
+                    Date of Birth:
+                 <input type="date" name="dob" id="dob">
+                </select>
+                </p>
+                </label>
+                <label>
+                    <p>
+                        Why do you want to join?
+                <br>
+                <textarea id="reason" name="Why do you want to join" rows="10" cols="20"></textarea>
+                    </p>
+                </label>
+                    <div>
+                <button>SUBMIT</button>
+                <button>Reset</button>
+            </div>
+
+
+
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
